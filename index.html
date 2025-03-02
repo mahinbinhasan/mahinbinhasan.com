@@ -21,7 +21,44 @@
 <link href="css/style.css" rel="stylesheet" media="screen">
 </head>
 <body>
-  Site Under Construction. 
-  send mail at public.mahin@gmail.com
+    <div id="blob" class="blob-link"></div>
+    
+    <!-- <nav>
+        <ul id="main-nav">
+            <li class="active"><a href="#home">home</a></li>
+            <li><a href="#about">about</a></li>
+            <li><a href="#work">work</a></li>
+            <li><a href="#contact">contact</a></li>
+        </ul>
+    </nav> -->
+
+    <div class="profile-container">
+        <img src="pfp.png" alt="Profile Picture" class="profile-picture">
+        <h1>Mahin Bin Hasan</h1>
+        <p>Programmer | 3D Model Artist</p>
+        <div class="links-container">
+            <a href="https://www.linkedin.com/in/mahinbinhasan/" class="link-button" target="_blank">LinkedIn</a>
+            <a href="https://github.com/mahinbinhasan" class="link-button" target="_blank">GitHub</a>
+            <a href="https://www.behance.net/mahinbinhasan" class="link-button" target="_blank">Behance</a>
+          <a href="#" class="link-button in-progress" target="_blank">public.mahin@gmail.com</a>
+            <a href="#" class="link-button in-progress" target="_blank">Portfolio in-progress</a>
+            <!-- Add more links as needed -->
+        </div>
+    </div>
+
+
+
+    <script>
+        const nav = document.getElementById('main-nav');
+        window.addEventListener('scroll', () => {
+            if (window.scrollY > 0) {
+                nav.classList.add('scrolled');
+            } else {
+                nav.classList.remove('scrolled');
+            }
+        });
+    </script>
+    <script src="./script.js"></script>
+    
 </body>
 </html>
